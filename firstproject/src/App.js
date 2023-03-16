@@ -1,6 +1,10 @@
-//import logo from "./logo.svg";
 import { Component } from "react";
 import "./App.css";
+import Header from "./Header";
+import Tehologies from './Tehologies';
+//import {default as Abc} from "./Header";
+
+//import Header from "./Header";
 
 const App = () => {
   return (
@@ -12,25 +16,6 @@ const App = () => {
 };
 
 
-const Header = ()=>{
-  return(
-    <div>
-      <a href="https://github.com/Ch1ChaGL">Home</a>
-      <a href="https://github.com/Ch1ChaGL">News Feed</a>
-      <a href="https://github.com/Ch1ChaGL">Message</a>
-    </div>
-  )
-}
-
-const Tehologies = ()=>{
-  return(<div className="App">
-  <ul>
-    <li>123</li>
-    <li>123</li>
-    <li>123</li>
-  </ul>
-</div>)
-}
 
 
 export default App;
