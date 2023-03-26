@@ -1,8 +1,10 @@
+
+import c from './Profile.module.css';
 const Profile = () => (
   <div className="content">
     <div>
       <img
-        className="billboard"
+        className={c.billboard}
         src="https://bipbap.ru/wp-content/uploads/2017/04/0_7c779_5df17311_orig.jpg"
       ></img>
     </div>
@@ -10,9 +12,9 @@ const Profile = () => (
     <div>
       my posts
       <div>new post</div>
-      <div>
-        <div>Post 1</div>
-        <div>Post 2</div>
+      <div className={c.posts}>
+        <div className={c.item}>Post 1</div>
+        <div className={c.item}>Post 2</div>
       </div>
     </div>
   </div>
