@@ -4,15 +4,12 @@
   grid-area: nav;
   background-color: aquamarine;
 }
-.nav a {
-  color: black;
+
+.item a {
+  color: white;
   text-decoration: none;
 }
 
-.item a{
-  color: white;
-}
-
-.item{
-  color: aqua;
+.item a.active {
+  color: gold;
 }
