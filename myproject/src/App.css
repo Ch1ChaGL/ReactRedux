@@ -11,6 +11,8 @@
   grid-gap: 10px;
 }
 
-
-
-
+.app-wrapper-content {
+  font-size: 24px;
+  background-color: azure;
+  grid-area: content;
+}
